@@ -8,9 +8,10 @@ public class TestJenkins {
 
     @Test
     public void testJenkins() throws InterruptedException{
-//        WebDriver driver = new FirefoxDriver();
-//        driver.get("https://www.baidu.com/");
-//        Thread.sleep(10000);
+        WebDriver driver = new FirefoxDriver();
+        driver.get("https://www.baidu.com/");
+        Thread.sleep(10000);
+        driver.quit();
         System.out.println("test1");
     }
 }
